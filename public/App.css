@@ -15,12 +15,14 @@ body {
   font-family: 'Karla', sans-serif;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 main {
   background-color: #F5F5F5;
   height: 400px;
-  width: 80vw;
+  /* width: 100%; */
   /* min-width: 800px; */
   border-radius: 5px;
   padding: 20px;

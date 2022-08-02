@@ -42,7 +42,7 @@ export default function App() {
       if (allHeld && allSameValue) {
         setTenzies(true)
         setRollCount(0)
-        setGameText("You have Won!!")
+        setGameText("You Won!!")
         setNewGame(false)
         
         const currentTime = (new Date().getTime() - startTime) / 1000
